@@ -1,0 +1,84 @@
+/*https://www.landingfolio.com/gallery/bonfire/*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../img/header-bg-img.jpg) no-repeat center/cover;
+    height: 80vh;
+}
+
+.header-brand {
+    display: inline-block;
+    margin-left: 15px;
+    color: white;
+
+}
+
+nav {
+    display: inline-block;
+    width: calc(100% - 149px);
+    text-align: right;
+    vertical-align: middle;
+    padding: 55px;
+}
+
+ul {
+    text-align: right;
+    vertical-align: middle;
+
+}
+
+ul li {
+    display: inline-block;
+    font-size: 22px;
+    padding: 0 25px;
+
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul button {
+    padding: 8px 25px;
+}
+
+.container-header-content {
+    color: white;
+    text-align: center;
+    padding: 8% 0;
+    font-size: 22px;
+}
+
+.btn-light {
+    border: 1px solid #333;
+    background: #eee;
+
+}
+
+.btn-light:hover {
+    background: #fff;
+}
+
+.btn-nav {
+    padding: 10px 25px;
+    border-radius: 3px
+}
+
+.btn-green {
+    background: #41aaa8;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 3px
+}
+
+.btn-green:hover {
+    background: #105e62;
+}
