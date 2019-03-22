@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -97,4 +98,19 @@ ul button {
 .headline-paragraph {
     font-size: 22px;
     font-weight: bold;
+}
+
+.htw-container {
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+htw-box {
+    width: 100%;
+}
+
+.features-box {
+    width: 22%;
+    display: inline-block;
 }
