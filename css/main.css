@@ -100,8 +100,16 @@ ul button {
     font-weight: bold;
 }
 
+/*How it works styles*/
+.how-it-works {
+    text-align: center;
+    padding: 25px;
+    margin: 55px;
+}
+
 .htw-container {
     padding: 30px;
+
     width: 100%;
     text-align: center;
 }
@@ -113,4 +121,37 @@ htw-box {
 .features-box {
     width: 22%;
     display: inline-block;
+    padding: 25px;
+}
+
+.features-box h3 {
+    padding: 25px;
+}
+
+.features-box p {
+    padding: 15px 0;
+}
+
+.fas {
+    color: #105e62;
+}
+
+/*covered-section styles*/
+.cta {
+    background: url(../img/cta-photo.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.cta-box {
+    background: #eee;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 600px;
+    padding: 55px;
+}
+
+.cta-box h2 {
+    padding-bottom: 25px;
 }
