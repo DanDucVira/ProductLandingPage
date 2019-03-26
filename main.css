@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Header Styles*/
+#main-header {
+    background: #070d59;
+    color: white;
+    height: 600px;
+}
+
+#header-brand {
+    font-size: 24px;
+    text-decoration: none;
+    color: #f7b633;
+    font-weight: bold;
+}
+
+/*header-navigation styles*/
+#main-nav {
+    display: inline-block;
+    width: calc(100% - 89px);
+    text-align: right;
+    vertical-align: middle;
+
+
+
+
+}
+
+.nav-list {
+    display: inline-block;
+
+}
+
+.nav-list li {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 15px;
+
+}
+
+.nav-list li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
