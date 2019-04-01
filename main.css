@@ -1,50 +1,156 @@
+/*https://nexthemes.co/demo/html/virtualreality/#*/
+/*https://onepagelove.com/comply*/
+/*https://colorhunt.co/palette/139667*/
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 /*Header Styles*/
 #main-header {
-    background: #070d59;
+    background: #1f3c88;
     color: white;
     height: 600px;
 }
 
 #header-brand {
-    font-size: 24px;
+    font-size: 2rem;
     text-decoration: none;
     color: #f7b633;
     font-weight: bold;
 }
 
 /*header-navigation styles*/
-#main-nav {
-    display: inline-block;
-    width: calc(100% - 89px);
-    text-align: right;
-    vertical-align: middle;
-
-
-
-
-}
-
-.nav-list {
-    display: inline-block;
-
-}
-
-.nav-list li {
-    display: inline-block;
+.navbar {
     font-size: 18px;
-    margin: 0 15px;
 
+
+    padding-bottom: 10px;
 }
 
-.nav-list li a {
-    list-style: none;
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links {
     text-decoration: none;
     color: white;
+}
+
+
+
+.logo-header {
+    text-decoration: none;
+    color: #f7b633;
 
 }
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.main-nav li:hover {
+    color: #f7b633;
+}
+
+.logo-header {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}
+
+/*headline-container styles*/
+.headline-container {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.headline-container img {
+    width: 450px;
+    height: 250px;
+
+
+
+
+}
+
+.headline-container .headline-text {}
+
+
+
+.headline-heading-color {
+    color: #f7b633;
+}
+
+@media screen and (max-width: 668px) {
+    .headline-container img {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 0;
+            height: 70px;
+            align-items: center;
+            z-index: 999;
+
+        }
+
+        .main-nav {
+            display: flex;
+            margin-right: 30px;
+            flex-direction: row;
+            justify-content: flex-end;
+            z-index: 999;
+        }
+
+        .main-nav li {
+            margin: 0;
+        }
+
+        .nav-links {
+            margin-left: 40px;
+        }
+
+        .logo-header {
+            margin-top: 0;
+        }
+
+        .navbar-toggle {
+            display: none;
+        }
+
+        .logo:hover,
+        .nav-links:hover {
+            color: rgba(255, 255, 255, 1);
+        }
+
+
+    }
