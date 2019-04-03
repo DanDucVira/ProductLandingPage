@@ -17,7 +17,7 @@ body {
 #main-header {
     background: #1f3c88;
     color: white;
-    height: 600px;
+    height: 900px;
 }
 
 #header-brand {
@@ -58,7 +58,7 @@ body {
     margin: 15px auto;
 }
 
-.main-nav li:hover {
+.main-nav a:hover {
     color: #f7b633;
 
 
@@ -88,8 +88,10 @@ body {
 .headline-container {
     display: flex;
     flex-direction: row;
-    padding-top: 185px;
-    margin: 0 124px;
+
+    padding-top: 15%;
+    margin: 0 auto;
+    width: 80%;
 
 
 }
@@ -102,14 +104,25 @@ body {
 
 
 
+
+}
+
+.headline-text {
+    margin: 48px;
+}
+
+.headline-text h1,
+p {
+    padding-bottom: 5px;
 }
 
 .headline-heading-color {
     color: #f7b633;
 }
 
+
 .btn {
-    padding: 8px 15px;
+    padding: 15px 25px;
     font-size: 1rem;
     border: none;
     text-transform: uppercase;
@@ -126,10 +139,72 @@ body {
     color: #f7b633;
 }
 
+/*Features Section Styles*/
+#features {
+    text-align: center;
+
+}
+
+#features h2 {
+    text-align: center;
+    padding: 25px;
+    color: #f7b633;
+    font-size: 1.5rem;
+}
+
+#features p {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 28px;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 25px;
+
+
+
+
+
+}
+
+.features-box {
+    padding: 5px;
+    margin: 25px;
+
+}
+
+.features-box .fas {
+    color: #1f3c88;
+}
+
+.features-box i,
+h3,
+p {
+    padding-bottom: 25px;
+}
+
+.features-box:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
 @media screen and (max-width: 668px) {
     .headline-container {
         text-align: center;
         margin: 0px;
+        padding-top: 200px;
+        width: 100%;
+    }
+
+    .headline-container p {
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        margin: 15px;
     }
 
     .headline-container img {
@@ -147,12 +222,14 @@ body {
 
     }
 
+    .headline-container .headline-text {}
+
     .headline-container .headline-text h1 {
-        padding-bottom: 25px;
+        padding-bottom: 15px;
     }
 
     .headline-container .headline-text p {
-        padding-bottom: 25px;
+        padding-bottom: 15px;
     }
 
     #features h2 {
