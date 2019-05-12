@@ -1,0 +1,29 @@
+.navbar-items,
+.navbar {
+    flex-direction: column;
+    z-index: 999;
+}
+
+.navbar-items {
+    display: none;
+}
+
+.navbar-items-right {
+    margin-left: 0;
+}
+
+.navbar-items ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.Navbar__ToggleShow {
+    display: flex;
+}
+
+.navbar-link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+}
