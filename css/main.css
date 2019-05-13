@@ -225,8 +225,9 @@ p {
 
 /*pricing section styles*/
 .pricing h2 {
-
+    color: #f7b633;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 .pricing p {
@@ -322,4 +323,9 @@ p {
 
 .download .fab {
     padding-right: 8px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
 }
