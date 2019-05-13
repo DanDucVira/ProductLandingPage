@@ -288,9 +288,38 @@ p {
     border: none;
     background: #1f3c88;
     color: white;
+    cursor: pointer;
 }
 
 .pricing-container .pricing-box .btn-pricing:hover {
     cursor: pointer;
 
+}
+
+.download {
+    text-align: center;
+    padding: 120px;
+
+}
+
+.download h2 {
+    font-size: 2rem;
+    padding-bottom: 25px;
+    color: #1f3c88;
+}
+
+.download .googleBtn,
+.appleBtn {
+    padding: 15px 25px;
+    font-size: 1rem;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background: #1f3c88;
+    color: white;
+}
+
+.download .fab {
+    padding-right: 8px;
 }
