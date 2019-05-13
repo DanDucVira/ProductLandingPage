@@ -1,6 +1,8 @@
-let mainNav = document.getElementById("js-menu");
-let navBarToggle = document.getElementById("js-navbar-toggle");
+function classToggle() {
+    const navs = document.querySelectorAll('.navbar-items')
 
-navBarToggle.addEventListener("click", function () {
-    mainNav.classList.toggle("active");
-});
+    navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+}
+
+document.querySelector('.navbar-link-toggle')
+    .addEventListener('click', classToggle);
