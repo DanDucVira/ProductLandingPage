@@ -325,7 +325,53 @@ p {
     padding-right: 8px;
 }
 
+.our-team {
+    background: #EEF4F7;
+    padding: 120px;
+}
+
+.our-team h2 {
+    text-align: center;
+    color: #1f3c88;
+    font-size: 2rem;
+    padding: 15px 0px;
+}
+
+
+.our-team p {
+    text-align: center;
+}
+
 .team-container {
     display: flex;
     justify-content: center;
+}
+
+.team-container .img-block {
+    background: #FFFFFF;
+    width: 250px;
+    height: 400px;
+    margin: 25px;
+    text-align: center;
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.team-container .img-block img {
+    width: 250px;
+}
+
+.team-container .img-block h4 {
+    font-size: 1.4rem;
+    padding: 15px 0px;
+}
+
+.team-container .img-block .sub-heading {
+    font-size: 1rem;
+    color: gray;
+    font-weight: bolder;
+}
+
+.team-container .img-block .img-block-text {
+    color: gray;
+    font-size: 0.85rem;
 }
