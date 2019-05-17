@@ -135,6 +135,7 @@ p {
 
 .btn-download {
     color: #f7b633;
+    background: white;
 }
 
 .btn-download:hover {
@@ -218,16 +219,28 @@ p {
     padding-bottom: 25px;
 }
 
+
 .div-content .btn-new {
     margin-top: 25px;
     padding: 8px;
 }
 
+.Wnew-container .div-content img {
+    width: 500px;
+    height: 100px;
+}
+
 /*pricing section styles*/
+.pricing {
+    padding: 220px;
+}
+
 .pricing h2 {
     color: #f7b633;
     text-align: center;
     padding-bottom: 25px;
+    font-size: 2rem;
+
 }
 
 .pricing p {
@@ -299,14 +312,16 @@ p {
 
 .download {
     text-align: center;
-    padding: 120px;
+    padding: 220px;
+
 
 }
 
 .download h2 {
     font-size: 2rem;
     padding-bottom: 25px;
-    color: #1f3c88;
+    color: #f7b633;
+    text-transform: uppercase;
 }
 
 .download .googleBtn,
@@ -332,7 +347,7 @@ p {
 
 .our-team h2 {
     text-align: center;
-    color: #1f3c88;
+    color: #f7b633;
     font-size: 2rem;
     padding: 15px 0px;
 }
@@ -374,4 +389,27 @@ p {
 .team-container .img-block .img-block-text {
     color: gray;
     font-size: 0.85rem;
+}
+
+.blog-section {
+    text-align: center;
+}
+
+.blog-section h2 {
+    padding: 45px 0;
+}
+
+.blog-section .blog-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-container .blog-box img {
+    width: 580px;
+    height: 350px;
+}
+
+.blog-container .blog-box h3 {
+    padding-bottom: 15px;
+    padding-top: 23px;
 }
