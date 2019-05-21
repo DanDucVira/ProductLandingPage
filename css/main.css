@@ -393,6 +393,7 @@ p {
 
 .blog-section {
     text-align: center;
+    padding: 120px;
 }
 
 .blog-section h2 {
@@ -412,4 +413,49 @@ p {
 .blog-container .blog-box h3 {
     padding-bottom: 15px;
     padding-top: 23px;
+}
+
+/*cta section styles*/
+.cta {
+    padding: 120px;
+    background: #5893d4;
+    color: white;
+}
+
+.cta .cta-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cta-box {
+    text-align: center;
+
+}
+
+.cta-box p {
+    padding-top: 15px;
+}
+
+.fas {
+    padding: 0px 205px;
+}
+
+/*footer styles*/
+.main-footer {
+    text-align: center;
+    padding: 25px;
+    background: #1f3c88;
+    color: white;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center
+}
+
+.footer-container .fab {
+    padding: 8px 5px;
+
 }
