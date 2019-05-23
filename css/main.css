@@ -23,6 +23,7 @@ nav {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 header {
@@ -32,6 +33,41 @@ header {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 40%;
 
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #f7b633;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #f7b633;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/*media querys*/
+@media screen and (max-width:1024px) {
+    .nav-links {
+
+        width: 60%;
+
+    }
 }
