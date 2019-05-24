@@ -97,6 +97,7 @@ header {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .headline-text .btn-buy {
@@ -112,6 +113,31 @@ header {
 
 .headline-text h1 {
     padding-bottom: 24px;
+}
+
+/*Features styles*/
+.features {
+    padding: 120px;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.features-container .features-box {
+    text-align: center;
+    padding: 65px;
+}
+
+.features-box .fas {
+    color: #070d59;
+    padding-bottom: 24px;
+}
+
+.features-box h3 {
+    padding-bottom: 10px;
 }
 
 /*media querys*/
