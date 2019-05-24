@@ -90,6 +90,30 @@ header {
     color: #f7b633;
 }
 
+.headline-text .btn {
+    padding: 15px;
+    border: none;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.headline-text .btn-buy {
+    background-color: #f7b633;
+    color: white;
+
+}
+
+.headline-text .btn-download {
+    color: #f7b633;
+    background-color: white;
+}
+
+.headline-text h1 {
+    padding-bottom: 24px;
+}
+
 /*media querys*/
 @media screen and (max-width: 768px) {
 
@@ -123,6 +147,13 @@ header {
         display: block;
     }
 
+    .headline-container {
+        flex-direction: column;
+    }
+
+    .headline-container img {
+        display: none;
+    }
 
 }
 
