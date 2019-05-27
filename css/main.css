@@ -202,6 +202,23 @@ header {
 }
 
 /*pricing section*/
+.pricing {
+    padding: 120px;
+    background-color: #FAFAFA;
+
+}
+
+.pricing h2 {
+    font-size: 2rem;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.pricing p {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
 .pricing-container {
     display: flex;
     justify-content: center;
@@ -210,13 +227,36 @@ header {
 
 .pricing-container .pricing-box {
     padding: 20px;
-    height: 280px;
+    height: 480px;
     width: 340px;
     text-align: center;
+    background-color: #FFFFFF;
+    margin: 25px;
+}
+
+.pricing-box .pricing-border {
+    border-bottom: 1px solid #070d59;
+}
+
+.pricing-box h3 {
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+}
+
+.pricing-box .price {
+    font-size: 1.4rem;
+    color: #070d59;
+    font-weight: bold;
+}
+
+.pricing-box .pricing-info {
+    padding-top: 25px;
 }
 
 .pricing-box li {
     list-style: none;
+    font-size: 1.2rem;
+    padding: 10px 0;
 }
 
 /*media querys*/
