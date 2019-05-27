@@ -124,6 +124,7 @@ header {
     text-align: center;
     padding-bottom: 10px;
     font-size: 2rem;
+    color: #f7b633;
 }
 
 .features p {
@@ -155,6 +156,67 @@ header {
 
 .features-box h3 {
     padding-bottom: 10px;
+}
+
+/*whats new section*/
+.Wnew-container {
+    display: flex;
+}
+
+.Wnew-container img {
+    width: 60%;
+    height: 650px;
+}
+
+.div-content {
+    padding-left: 35px;
+}
+
+.div-content h2 {
+    font-size: 2rem;
+    padding-bottom: 25px;
+    color: #f7b633;
+}
+
+.div-content ul {
+    color: #070d59;
+    padding-top: 25px;
+
+}
+
+.div-content ul li {
+    padding: 5px 0;
+    font-size: 1.2rem;
+}
+
+.div-content .btn-new {
+    padding: 15px;
+    border: none;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background: #070d59;
+}
+
+/*pricing section*/
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pricing-container .pricing-box {
+    padding: 20px;
+    height: 280px;
+    width: 340px;
+    text-align: center;
+}
+
+.pricing-box li {
+    list-style: none;
 }
 
 /*media querys*/
