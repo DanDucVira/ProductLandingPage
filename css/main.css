@@ -120,6 +120,17 @@ header {
     padding: 120px;
 }
 
+.features h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+.features p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .features-container {
     display: flex;
     flex-direction: row;
@@ -129,6 +140,12 @@ header {
 .features-container .features-box {
     text-align: center;
     padding: 65px;
+}
+
+.features-container .features-box:hover {
+
+    box-shadow: 0 0 20px #333;
+
 }
 
 .features-box .fas {
@@ -181,6 +198,9 @@ header {
         display: none;
     }
 
+    .features-container {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width:1024px) {
