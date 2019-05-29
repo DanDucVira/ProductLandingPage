@@ -1,11 +1,13 @@
 /*https://nexthemes.co/demo/html/virtualreality/#*/
 /*https://onepagelove.com/comply*/
 /*https://colorhunt.co/palette/139667*/
+@import url('https://fonts.googleapis.com/css?family=Mandali&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Mandali', sans-serif;
 }
 
 nav {
@@ -145,7 +147,7 @@ header {
 
 .features-container .features-box:hover {
 
-    box-shadow: 0 0 20px #333;
+    box-shadow: 0 0 20px lightgray;
 
 }
 
@@ -164,12 +166,12 @@ header {
 }
 
 .Wnew-container img {
-    width: 60%;
+    width: 40%;
     height: 650px;
 }
 
 .div-content {
-    padding-left: 35px;
+    padding-left: 85px;
 }
 
 .div-content h2 {
@@ -227,7 +229,7 @@ header {
 
 .pricing-container .pricing-box {
     padding: 20px;
-    height: 480px;
+    height: 540px;
     width: 340px;
     text-align: center;
     background-color: #FFFFFF;
@@ -239,24 +241,37 @@ header {
 }
 
 .pricing-box h3 {
-    font-size: 1.8rem;
-    padding-bottom: 10px;
+    font-size: 1.4rem;
+    padding-bottom: 25px;
 }
 
 .pricing-box .price {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: #070d59;
     font-weight: bold;
+
 }
 
 .pricing-box .pricing-info {
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .pricing-box li {
     list-style: none;
     font-size: 1.2rem;
-    padding: 10px 0;
+    padding: 5px 0;
+}
+
+.btn-pricing {
+    padding: 10px;
+    border: none;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #070d59;
 }
 
 /*media querys*/
