@@ -297,10 +297,39 @@ header {
 /*team section styles*/
 .our-team {
     padding: 120px;
+
+}
+
+.our-team h2 {
+    text-align: center;
+}
+
+.our-team p {
+    text-align: center;
 }
 
 .team-container {
     display: flex;
+    justify-content: center;
+}
+
+.team-container .img-block {
+    width: 250px;
+    margin: 25px;
+
+
+}
+
+.team-container .img-block img {
+    width: 250px;
+}
+
+.team-container .sub-heading {
+    text-align: left;
+}
+
+.team-container .img-block-text {
+    text-align: left;
 }
 
 /*media querys*/
