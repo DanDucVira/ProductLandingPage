@@ -167,7 +167,7 @@ header {
 
 .Wnew-container img {
     width: 40%;
-    height: 650px;
+    height: 850px;
 }
 
 .div-content {
@@ -255,11 +255,12 @@ header {
 
 .pricing-box .pricing-info {
     padding-top: 10px;
+
 }
 
 .pricing-box li {
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 5px 0;
 }
 
@@ -274,6 +275,32 @@ header {
     color: white;
     background-color: #070d59;
     border-radius: 1.2rem;
+}
+
+/*download sections*/
+.download {
+    text-align: center;
+    padding: 120px;
+}
+
+.download h2 {
+    color: #f7b633;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.download p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*team section styles*/
+.our-team {
+    padding: 120px;
+}
+
+.team-container {
+    display: flex;
 }
 
 /*media querys*/
