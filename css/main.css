@@ -67,13 +67,14 @@ header {
 
 /*header content styles*/
 .main-header {
-    height: 80vh
+    height: 100vh
 }
 
 .headline-container {
     display: flex;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 50px;
+
 }
 
 .headline-container img {
@@ -84,7 +85,7 @@ header {
 
 .headline-container .headline-text {
     padding-left: 25px;
-    padding-top: 75px;
+    padding-top: 35px;
     color: white;
 }
 
@@ -127,6 +128,10 @@ header {
     padding-bottom: 10px;
     font-size: 2rem;
     color: #f7b633;
+}
+
+.features h3 {
+    color: #070D59;
 }
 
 .features p {
@@ -214,6 +219,7 @@ header {
     font-size: 2rem;
     padding-bottom: 25px;
     text-align: center;
+    color: #f7b633;
 }
 
 .pricing p {
@@ -302,6 +308,7 @@ header {
 
 .our-team h2 {
     text-align: center;
+    color: #f7b633;
 }
 
 .our-team p {
@@ -326,10 +333,44 @@ header {
 
 .team-container .sub-heading {
     text-align: left;
+    color: #f7b633;
 }
 
 .team-container .img-block-text {
     text-align: left;
+}
+
+/*Blog section*/
+.blog-section {
+    text-align: center;
+}
+
+.blog-section h2 {
+    color: #f7b633;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 55px;
+}
+
+.blog-container .blog-box img {
+    width: 350px;
+    height: 250px;
+}
+
+/*Call to action styles*/
+.cta {
+    background-color: #070d59;
+    color: white;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /*media querys*/
